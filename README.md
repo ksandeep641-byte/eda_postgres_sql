@@ -28,12 +28,14 @@ I started by querying the system's metadata to understand the environment and th
 ## 2. Date Boundaries (Time Span)
 
 Establishing the timeframe is essential for context. I calculated the total range of the data in years and months.
-SQL Technique: MIN(), MAX(), AGE(), EXTRACT.
+
+MIN(), MAX(), AGE(), EXTRACT.
 
 ## 3. Key Business Metrics (Measures)
 
 I generated a "Metric Summary Report" by consolidating several high-level aggregations into a single query to provide an instant snapshot of business health.
-SQL Technique: SUM(), COUNT(DISTINCT), AVG(), UNION ALL.
+
+SUM(), COUNT(DISTINCT), AVG(), UNION ALL.
 
 ## 4. Magnitude Analysis
 
@@ -45,7 +47,7 @@ GROUP BY, JOIN.
 
 Finally, I identified the "Top Performers" to help stakeholders focus on the most profitable segments of the business.
 
-SQL Technique: LIMIT, ORDER BY.
+LIMIT, ORDER BY.
 
 
   
