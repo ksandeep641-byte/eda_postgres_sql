@@ -9,8 +9,11 @@ sales data
 
 ### Tools Used 
 
-Database: PostgreSQL
-Core Concepts: Data Profiling, Aggregations, Table Joins, Metadata Queries.
+- Database: PostgreSQL
+- Core Concepts: Data Profiling,
+- Aggregations, 
+- Table Joins, 
+- Metadata Queries
 
 ### Methodology
 
