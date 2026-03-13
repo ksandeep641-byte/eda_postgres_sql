@@ -4,7 +4,7 @@ The goal of this project is to perform a comprehensive profiling of an e-commerc
 
 ## Methodology
 
-- ### Database Exploration: Understanding the schema, tables, and columns.
+- ### Database Exploration: #### Understanding the schema, tables, and columns.
 - ### Dimension Exploration: Identifying unique values in categorical data.
 - ### Date Exploration: Defining the time span of the business.
 - ### Measure Exploration: Calculating high-level key metrics (Total Sales, Order Volume).
