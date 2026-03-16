@@ -30,6 +30,8 @@ sales data
 
 I started by querying the system's metadata to understand the environment and then identified the unique categories within the dimensions.
 
+information_schema.columns, DISTINCT
+
 ## 2. Date Boundaries (Time Span)
 
 Establishing the timeframe is essential for context. I calculated the total range of the data in years and months.
