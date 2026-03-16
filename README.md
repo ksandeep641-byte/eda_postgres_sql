@@ -54,6 +54,51 @@ Finally, I identified the "Top Performers" to help stakeholders focus on the mos
 
 LIMIT, ORDER BY.
 
+## 6. Growth & Trend Analysis 
+
+Change Over Time 
+
+To understand seasonality, I analyzed total sales and customer acquisition trends at the yearly level. 
+
+EXTRACT(YEAR FROM ...), SUM(), GROUP BY. 
+
+## 7. Performance & Contribution 
+
+Year-Over-Year (YoY) Performance 
+
+I compared current year sales against the previous year's performance to identify growth rates. 
+
+LAG(), PARTITION BY, EXTRACT.
+
+Part-to-Whole Analysis 
+
+Determined which product categories contribute most to the overall revenue. 
+
+Window Functions, Type Casting (::NUMERIC). 
+
+## 8. 3. Customer Segmentation (RFM Lite) 
+
+I segmented the customer base based on their spending behavior and loyalty lifespan. 
+
+Segments: 
+
+VIP: Active ≥ 12 months AND > $5,000 spend. 
+
+Regular: Active ≥ 12 months AND ≤ $5,000 spend. 
+
+New: Active < 12 months. 
+
+CASE WHEN, AGE() or EXTRACT(MONTH FROM ...) for interval calculation. 
+
+## 9. Final Business Reports (SQL Views) 
+
+Consolidated the logic into a final PostgreSQL View. 
+
+Report: Customer Intelligence 360 
+
+This view provides a consolidated profile for every customer. 
+
+CREATE VIEW, CURRENT DATE
 
 
 
