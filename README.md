@@ -22,6 +22,8 @@ sales data
 - Date Exploration: Defining the time span of the business.
 - Measure Exploration: Calculating high-level key metrics (Total Sales, Order Volume).
 - Magnitude & Ranking: Comparing metrics across categories to identify top performers.
+- Advanced Analytics: Implementing "Change Over Time," "Cumulative," and "Part-to-Whole" analyses.
+- Business Intelligence Reporting: Consolidating queries into reusable SQL Views for automated reporting. 
 
 
 ## 1. Database & Dimension Profiling
@@ -51,6 +53,8 @@ GROUP BY, JOIN.
 Finally, I identified the "Top Performers" to help stakeholders focus on the most profitable segments of the business.
 
 LIMIT, ORDER BY.
+
+
 
 
   
