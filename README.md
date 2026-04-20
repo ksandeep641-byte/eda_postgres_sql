@@ -78,7 +78,7 @@ Determined which product categories contribute most to the overall revenue.
 
 Window Functions, Type Casting (::NUMERIC). 
 
-## 8. 3. Customer Segmentation (RFM Lite) 
+## 8. Customer Segmentation (RFM Lite) 
 
 I segmented the customer base based on their spending behavior and loyalty lifespan. 
 
